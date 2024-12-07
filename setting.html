@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Settings - Skills Enhancement Dashboard</title>
+    <link rel="stylesheet" href="stylesetting.css"> <!-- Link to the specific CSS for settings -->
+</head>
+<body>
+    <div class="header">
+        <h1>Settings</h1>
+    </div>
+    <div class="navigation">
+        <a href="home.html">Home</a>
+        <a href="course.html">My Courses</a>
+        <a href="progress.html">Progress</a>
+        <a href="setting.html">Settings</a>
+    </div>
+    <div class="container">
+        <h2>Account Settings</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <label for="name">Candidate Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="theme">Theme:</label>
+            <select id="theme" name="theme">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </select>
+            <br>
+            <label for="language">Language:</label>
+            <select id="language" name="language">
+                <option value="english">English</option>
+                <option value="spanish">Spanish</option>
+                <option value="french">French</option>
+                <option value="german">German</option>
+            </select>
+            <br>
+            <label for="download-quality">Download Quality:</label>
+            <select id="download-quality" name="download-quality">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <br>
+            <label for="notifications">Notifications:</label>
+            <input type="checkbox" id="notifications" name="notifications" checked>
+            <label for="notifications">Enable Notifications</label>
+            <br>
+            <button type="submit">Save Changes</button>
+        </form>
+    </div>
+    <div class="footer">
+        <p>© 2024 Growth Grid. All rights reserved.</p>
+    </div>
+</body>
+</html>
